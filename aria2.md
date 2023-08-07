@@ -1,6 +1,4 @@
 ## Aria2入门
-&ensp;&ensp;&ensp;&ensp;$*弃用，[跳转至新文档](*
-
 **官网：https://aria2.github.io/**
 ### 后端
 * **下载Aria2**  

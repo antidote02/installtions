@@ -60,4 +60,6 @@ http://localhost:5244/
 * 添加存储  
 https://alist.nn.ci/zh/guide/drivers/
 
+**以上。欢迎补充和指正**
+
 ![]()
