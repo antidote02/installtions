@@ -1,5 +1,6 @@
 ## Instructions written for myself
 #### Table of contents
+- [Arch Linux](./)
 - [Aria2](./aria2.md)
 - [Alist](./alist.md)
 - [FFmpeg](./ffmpeg.md)
