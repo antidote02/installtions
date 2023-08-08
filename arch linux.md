@@ -8,11 +8,14 @@ https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/
 #### 重启Arch Linux
 `exit`  
 `reboot`
-#### 本地化
+#### 安装SSH
 `su`  
 `pacman -Syyu`  
-`timedatectl set-timezone 'Asia/Shanghai'`  
-`timedatectl set-ntp true`    
+`pacman -S openssh`  
+`systemctl start sshd`  
+`systemctl enable sshd`  
+`ip a`
+#### 安装Aru
 `nano /etc/pacman.conf`
 ```
 Color
@@ -21,17 +24,18 @@ Color
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ```
 `pacman -Sy archlinuxcn-keyring`  
-`pacman -S yay`  
-* 字体  
-`pacman -S adobe-source-han-sans-cn-fonts`  
-`pacman -S adobe-source-han-serif-cn-fonts`  
-`pacman -S noto-fonts-cjk`  
-`pacman -S noto-fonts-emoji`  
-`pacman -S noto-fonts-extra`  
-`pacman -S ttf-hannom`  
-`pacman -S wqy-microhei`  
-`pacman -S wqy-zenhei`  
-  * 或  
+`pacman -S paru yay`  
+#### 安装VM Tools（实体机忽略
+`pacman -S gtk2 gtkmm gtkmm3 open-vm-tools xf86-video-vmware xf86-input-vmmouse`  
+`systemctl enable vmtoolsd.service`  
+`nano /etc/mkinitcpio.conf`  
+```
+MODULES=(vsock vmw_vsock_vmci_transport vmw_balloon vmw_vmci vmwgfx)
+```
+`mkinitcpio -p linux-zen`
+#### 安装字体  
 `pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-hannom wqy-microhei wqy-zenhei`
+#### 安装Fcitx5输入法
+`pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-material-color fcitx5-pinyin-moegirl fcitx5-pinyin-zhwiki`
 
 **To be continued...**
