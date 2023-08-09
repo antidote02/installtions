@@ -174,7 +174,7 @@ http://aria2c.com/archiver/aria2.conf
 * **AriaNg**  
 https://ariang.mayswind.net/zh_Hans/
   * **浏览器扩展**  
-  `get-appxpackage -allusers -name microsoft.microsoftedge | foreach {add-appxpackage -disabledevelopmentmode -register "$($_.installlocation)\appxmanifest.xml" -verbose}` 
+  `> get-appxpackage -allusers -name microsoft.microsoftedge | foreach {add-appxpackage -disabledevelopmentmode -register "$($_.installlocation)\appxmanifest.xml" -verbose}` 
     * **Aria2 Explorer**  
 https://github.com/alexhua/Aria2-Explorer/blob/master/README.cn.md
     * **Camtd**  
