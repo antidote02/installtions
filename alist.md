@@ -4,41 +4,41 @@
 * **安装Scoop**  
 https://learn.microsoft.com/zh-cn/previous-versions/windows/powershell-scripting/hh847748(v=wps.640)
 https://github.com/ScoopInstaller/Install  
-`Set-ExecutionPolicy Bypass`  
-`cd D:\Administrator\Downloads`  
-`irm get.scoop.sh -outfile 'install.ps1'`  
-`.\install.ps1 -RunAsAdmin -ScoopDir 'D:\Applications\Scoop' -ScoopGlobalDir 'D:\GlobalScoopApps' -NoProxy`  
-`rm install.ps1`
+`> Set-ExecutionPolicy Bypass`  
+`> cd D:\Administrator\Downloads`  
+`> irm get.scoop.sh -outfile 'install.ps1'`  
+`> .\install.ps1 -RunAsAdmin -ScoopDir 'D:\Applications\Scoop' -ScoopGlobalDir 'D:\GlobalScoopApps' -NoProxy`  
+`> rm install.ps1`
   * **设置代理**  
-`scoop config proxy localhost:7890`/`scoop config rm proxy`
+`> scoop config proxy localhost:7890`/`> scoop config rm proxy`
   * **添加Bucket**  
-`scoop bucket known`  
-`scoop bucket add extras`  
-`scoop bucket add versions`  
-`scoop bucket add nirsoft`  
-`scoop bucket add sysinternals`  
-`scoop bucket add php`  
-`scoop bucket add nerd-fonts`  
-`scoop bucket add nonportable`  
-`scoop bucket add java`  
-`scoop bucket add games`  
-`scoop bucket add dorado https://github.com/chawyehsu/dorado`
+`> scoop bucket known`  
+`> scoop bucket add extras`  
+`> scoop bucket add versions`  
+`> scoop bucket add nirsoft`  
+`> scoop bucket add sysinternals`  
+`> scoop bucket add php`  
+`> scoop bucket add nerd-fonts`  
+`> scoop bucket add nonportable`  
+`> scoop bucket add java`  
+`> scoop bucket add games`  
+`> scoop bucket add dorado https://github.com/chawyehsu/dorado`
   * **升级/删除缓存**  
-`scoop install -k git`  
-`scoop update -k *`  
-`scoop cache rm *`
+`> scoop install -k git`  
+`> scoop update -k *`  
+`> scoop cache rm *`
   * **卸载**  
-`scoop uninstall scoop`
+`> scoop uninstall scoop`
 * **安装Alist**  
-`scoop install -k alist`
+`> scoop install -k alist`
 * **获得管理员信息**  
-`alist admin`
+`> alist admin`
 * **启动Alist**
   * **手动**  
 启动程序/通过Pid重启服务  
-`alist restart`  
+`> alist restart`  
 通过pid停止服务  
-`alist stop`
+`> alist stop`
   * **`.vbs脚本`**  
 新建`Alist启动.vbs`
     ```
