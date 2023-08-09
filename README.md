@@ -3,7 +3,7 @@
 - [Arch Linux](./arch%20linux.md)
 - [Aria2](./aria2.md)
 - [Alist](./alist.md)
-- [DDNS-GO]
+- [DDNS-GO](./ddns-go.md)
 - [FFmpeg](./ffmpeg.md)
 
 &ensp;&ensp;&ensp;&ensp;PS：网盘均有分流 :D
