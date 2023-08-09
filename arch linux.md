@@ -4,38 +4,38 @@
 #### **下载Arch Linux**
 https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/
 #### **安装Arch Linux**
-`archinstall`
+`# archinstall`
 #### 重启Arch Linux
-`exit`  
-`reboot`
+`# exit`  
+`# reboot`
 #### 安装SSH
-`su`  
-`pacman -Syyu`  
-`pacman -S openssh`  
-`systemctl start sshd`  
-`systemctl enable sshd`  
-`ip a`
+`# su`  
+`# pacman -Syyu`  
+`# pacman -S openssh`  
+`# systemctl start sshd`  
+`# systemctl enable sshd`  
+`# ip a`
 #### 安装Aru
-`nano /etc/pacman.conf`
+`# nano /etc/pacman.conf`
 ```
 Color
 
 [archlinuxcn]
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ```
-`pacman -Sy archlinuxcn-keyring`  
-`pacman -S paru yay`  
+`# pacman -Sy archlinuxcn-keyring`  
+`# pacman -S paru yay`  
 #### 安装VM Tools（实体机忽略
-`pacman -S gtk2 gtkmm gtkmm3 open-vm-tools xf86-video-vmware xf86-input-vmmouse`  
-`systemctl enable vmtoolsd.service`  
-`nano /etc/mkinitcpio.conf`  
+`# pacman -S gtk2 gtkmm gtkmm3 open-vm-tools xf86-video-vmware xf86-input-vmmouse`  
+`# systemctl enable vmtoolsd.service`  
+`# nano /etc/mkinitcpio.conf`  
 ```
 MODULES=(vsock vmw_vsock_vmci_transport vmw_balloon vmw_vmci vmwgfx)
 ```
-`mkinitcpio -p linux-zen`
+`# mkinitcpio -p linux-zen`
 #### 安装字体  
-`pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-hannom wqy-microhei wqy-zenhei`
+`# pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-hannom wqy-microhei wqy-zenhei`
 #### 安装Fcitx5输入法
-`pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-material-color fcitx5-pinyin-moegirl fcitx5-pinyin-zhwiki`
+`# pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-material-color fcitx5-pinyin-moegirl fcitx5-pinyin-zhwiki`
 
 **To be continued...**
