@@ -161,7 +161,7 @@ http://aria2c.com/archiver/aria2.conf
   Wscript.quit
   ```
   * **StartUp`Aria2c启动.vbs`快捷方式（可选**  
-`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\aria2c.vbs`
+`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\aria2c启动.vbs`
 * **新建`Aria2c停止.vbs`**  
 ``D:\Administrator\Desktop\Aria2c停止.vbs``
   ```

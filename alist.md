@@ -47,6 +47,9 @@ https://github.com/ScoopInstaller/Install
     ws.run "alist.exe restart",0
     Wscript.quit
     ```
+    * StartUp`Alist启动.vbs`快捷方式（可选  
+`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\Alist启动.vbs`
+  
     新建`Alist停止.vbs`
     ```
     Dim ws
