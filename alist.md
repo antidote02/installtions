@@ -34,7 +34,7 @@ https://github.com/ScoopInstaller/Install
 `> scoop install -k alist`
 * **获得管理员信息**  
 `> alist admin`
-* **启动Alist**
+* **运行Alist**
   * **手动**  
 启动程序/通过Pid重启服务  
 `> alist restart`  
