@@ -1,10 +1,11 @@
 ## Alist入门
 **官网：https://alist.nn.ci/zh/**
 ### 后端
-* **安装Scoop**  
+* **更改Powershell**  
 https://learn.microsoft.com/zh-cn/previous-versions/windows/powershell-scripting/hh847748(v=wps.640)
 https://github.com/ScoopInstaller/Install  
-`> Set-ExecutionPolicy Bypass`  
+`> Set-ExecutionPolicy Bypass`
+* **安装Scoop**
 `> cd D:\Administrator\Downloads`  
 `> irm get.scoop.sh -outfile 'install.ps1'`  
 `> .\install.ps1 -RunAsAdmin -ScoopDir 'D:\Applications\Scoop' -ScoopGlobalDir 'D:\GlobalScoopApps' -NoProxy`  
@@ -67,6 +68,6 @@ http://localhost:5244/@manage/storages
   * **添加Guest**  
 http://localhost:5244/@manage/users
 
-**To be continued...**
+**Updated 2023/8/11 , to be continued...**
 
 ![](https://s1.imagehub.cc/images/2023/07/30/52019894_p0.md.png)
