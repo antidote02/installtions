@@ -20,3 +20,5 @@ bilibili：Antidote02 [ [space.bilibili.com](https://space.bilibili.com/13790079
 网盘：Alist [ [antidote.skyman.cloud](http://antidote.skyman.cloud:22742/) ]
 
 &ensp;&ensp;&ensp;&ensp;**Favorite games is *Arknights* ！！**
+
+**Updated 2023/8/11 , to be continued...**
