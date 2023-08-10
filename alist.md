@@ -58,11 +58,15 @@ https://github.com/ScoopInstaller/Install
     Wscript.quit
     ```
 ### 前端
-* 主页  
+* **主页**  
 http://localhost:5244/  
-* 添加存储  
+文档  
 https://alist.nn.ci/zh/guide/drivers/
+  * **添加存储**  
+http://localhost:5244/@manage/storages
+  * **添加Guest**  
+http://localhost:5244/@manage/users
 
-**以上。欢迎补充和指正**
+**To be continued...**
 
 ![](https://s1.imagehub.cc/images/2023/07/30/52019894_p0.md.png)
