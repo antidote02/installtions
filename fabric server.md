@@ -25,6 +25,7 @@ https://fabricmc.net/use/server/
     java -Xmx2G -jar fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.jar nogui
     ```
 * **更改`server.properties`**  
+`D:\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2\server.properties`
 https://minecraft.fandom.com/zh/wiki/Server.properties
   ```
   allow-flight=true
@@ -37,5 +38,9 @@ https://minecraft.fandom.com/zh/wiki/Server.properties
   spawn-protection=0
   view-distance=10
   ```
+* **下载`mods`**  
+`D:\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2\mods`
+  * **Carpet**  
+https://modrinth.com/mod/carpet
 
 **To be continued...**
