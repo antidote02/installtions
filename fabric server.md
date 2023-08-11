@@ -46,7 +46,7 @@ https://minecraft.fandom.com/zh/wiki/Server.properties
 `D:\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2\mods\fabric-api-0.86.1+1.20.1.jar`
     * **C<sup>2</sup>ME [ C<sup>2</sup>M引擎 ]**  
 https://modrinth.com/mod/c2me-fabric
-    * **Carpet**  
+    * **Carpet [ 假人 ]**  
 https://modrinth.com/mod/carpet
     * **Debugify**  
 https://www.modrinth.com/mod/debugify
@@ -110,10 +110,14 @@ https://www.natfrp.com/user/
 * **运行服务端**  
 运行`fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`  
 `D:\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`
-* **服务端指令**
-  * **`op`**  
-
-
+* **运行指令**  
+  * **`服务端`**  
+`op antidote02`  
+`say 1`
+  * **`客户端`**  
+`auth setspawn`
+* **关闭服务端**  
+`stop`
 * **未测试`mods`**
   * **Alternate Current [ 红石优化 ]**  
 https://modrinth.com/mod/alternate-current
@@ -135,6 +139,7 @@ https://modrinth.com/mod/player-events
 https://www.curseforge.com/minecraft/mc-mods/quickteleports
   * **RandomTP [ 随机传送 ]**  
 https://modrinth.com/mod/randomtp
-  * **Server Hats [ Hats指令 ]**
+  * **Server Hats [ Hats指令 ]**  
+https://www.curseforge.com/minecraft/mc-mods/server-hats
 
 **To be continued...**
