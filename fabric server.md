@@ -21,7 +21,8 @@ https://fabricmc.net/use/server/
     ```
     eula=true
     ```
-  * **新建`fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`，运行生成`server.properties`并关闭**
+  * **新建`fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`，运行生成`server.properties`并关闭**  
+`D:\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`
     ```
     java -Xmx2G -jar fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.jar nogui
     ```
@@ -73,10 +74,12 @@ https://www.curseforge.com/minecraft/mc-mods/skinrestorer
 https://modrinth.com/mod/starlight
     * **VMP**  
 https://modrinth.com/mod/vmp-fabric
-* **更改`EasyAuth` `config.json`**
-  * **运行`fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`生成`EasyAuth`文件夹**  
-`D:\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2\mods\EasyAuth`
-  * **更改`config.json`**
+* **更改`mods`配置**  
+运行`fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`并关闭  
+`D:\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`
+  * **`EasyAuth`**  
+更改`config.json`  
+`D:\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2\mods\EasyAuth\config.json`
     ```
     {
       "main": {
@@ -84,6 +87,54 @@ https://modrinth.com/mod/vmp-fabric
       }
     }
     ```
+  * **`Geyser`**  
+    * **更改`config.yml`**  
+`D:\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2\config\Geyser-Fabric`
+      ```
+      bedrock:
+        clone-remote-port: true
+        auth-type: offline
+      ```
+    * **运行`fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`**  
+`D:\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`
+    * **重载`config.yml`**  
+`gersey reload`
+    * 关闭`fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`
+* **端口映射**  
+  * **云服务器**  
+    * **雨云**  
+https://www.rainyun.com/rcs
+  * **FRP**  
+    * **SakuraFRP**  
+https://www.natfrp.com/user/
+* **运行服务端**  
+运行`fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`  
+`D:\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`
+* **服务端指令**
+  * **`op`**  
 
+
+* **未测试`mods`**
+  * **Alternate Current [ 红石优化 ]**  
+https://modrinth.com/mod/alternate-current
+  * **Anti Xray [ 反矿透 ]**  
+https://modrinth.com/mod/anti-xray
+  * **Bot Connect [ 群服互联 ]**  
+https://modrinth.com/mod/mcbot
+  * **BlossomTpa**  
+https://modrinth.com/mod/blossomtpa
+  * **FancyClear [ 实体清理 ]**  
+https://www.curseforge.com/minecraft/mc-mods/fancyclear
+  * **HTM [ 箱子锁 ]**  
+https://modrinth.com/mod/htm
+  * **Inv View [ 查库存 ]**  
+https://modrinth.com/mod/invview
+  * **Player Events [ 玩家事件 ]**  
+https://modrinth.com/mod/player-events
+  * **QuickTeleports [ TPA指令 ]**  
+https://www.curseforge.com/minecraft/mc-mods/quickteleports
+  * **RandomTP [ 随机传送 ]**  
+https://modrinth.com/mod/randomtp
+  * **Server Hats [ Hats指令 ]**
 
 **To be continued...**
