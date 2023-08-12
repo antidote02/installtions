@@ -181,7 +181,7 @@ https://github.com/alexhua/Aria2-Explorer/blob/master/README.cn.md
 https://github.com/jae-jae/Camtd/wiki/Camtd%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B
   * **客户端**  
 **AriaNg GUI**  
-https://github.com/Xmader/aria-ng-gui/releases/tag/v3.1.2
+https://github.com/Xmader/aria-ng-gui/releases
 * **Aria2 WebUI**  
 https://ziahamza.github.io/webui-aria2/
 * **Aria2 Web控制台**  
