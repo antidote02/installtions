@@ -118,7 +118,7 @@ https://www.natfrp.com/user/
 `gamerule mobGriefing false`  
 `say 1`
   * **`客户端`**  
-`auth setspawn`
+`/auth setSpawn`
 * **关闭服务端**  
 `stop`
 * **未测试`mods`**
