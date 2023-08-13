@@ -100,6 +100,8 @@ https://modrinth.com/mod/vmp-fabric
     * **重载`config.yml`**  
 `gersey reload`
     * 关闭`fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2.bat`
+* **更改服务器图标**  
+`D:\fabric-server-mc.1.20.1-loader.0.14.22-launcher.0.11.2\world\icon.png`
 * **端口映射**  
   * **云服务器**  
     * **雨云**  
@@ -113,6 +115,7 @@ https://www.natfrp.com/user/
 * **运行指令**  
   * **`服务端`**  
 `op antidote02`  
+`gamerule mobGriefing false`  
 `say 1`
   * **`客户端`**  
 `auth setspawn`
