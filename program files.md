@@ -1,6 +1,7 @@
 ### 通讯
 `QQ` https://im.qq.com/pcqq/index.shtml  
-`TT语音` https://www.52tt.com/
+`TT语音` https://www.52tt.com/  
+`网易邮箱大师` 
 
 ### 工作
 `Notepad3` https://www.rizonesoft.com/downloads/notepad3/  
@@ -41,4 +42,5 @@
 `Neat Download Manager` http://www.neatdownloadmanager.com/index.php/en/  
 `qBittorrent Enhanced Edition` https://github.com/c0re100/qBittorrent-Enhanced-Edition  
 `电脑管家` https://guanjia.qq.com/  
-`分区助手` https://www.disktool.cn/feature.html
+`分区助手` https://www.disktool.cn/feature.html  
+`网速管家` https://www.speedtest.cn/app
