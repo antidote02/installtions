@@ -270,6 +270,8 @@ https://www.qiyou.cn/
 https://uu.163.com/
 * `小黑盒加速器`  
 https://acc.xiaoheihe.cn/pc
+* `游侠加速器` 公测免费  
+https://jsq.ali213.net/home
 
 **网络**
 * 内网穿透
