@@ -166,6 +166,8 @@ https://mpyit.com/aftereffects2023m0nkrus.html
 https://mpyit.com/mediaencoder2023m0nkrus.html
   * `Adobe Photoshop`  
 https://www.qijishow.com/down/Photoshop%20Beta.html
+  * `GenP`  
+https://appnee.com/genp/
 * `Vegas Pro`  
 https://mpyit.com/vegas21.html
 
