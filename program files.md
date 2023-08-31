@@ -7,8 +7,7 @@ https://msdn.sjjzm.com/
 https://www.revi.cc/
     * `AtlasOS` 精简，仅更新Win10  
 https://atlasos.net/
-  * PE
-    * `FirPE`  
+  * `FirPE`  
 https://firpe.cn/page-247
   * 磁盘  
     * `分区助手`  
@@ -18,7 +17,7 @@ https://www.diskgenius.cn/
   * 激活
     * `云萌 Windows 10+ 激活工具`  
 https://cmwtat.cloudmoe.com/cn.html
-    * `DragonKMS` 不推荐，关闭强制弹窗  
+    * `DragonKMS` 不推荐，强制弹窗  
 http://www.yishimei.cn/network/319.html
   * `Microsoft Update Catalog` 手动更新  
 https://www.catalog.update.microsoft.com/Home.aspx
@@ -96,7 +95,7 @@ https://www.52tt.com/
 * `Microsoft Edge Canary`  
 https://www.microsoft.com/zh-cn/edge/download/insider?form=MA13FJ
 * `Google Chrome Canary`  
-https://www.google.cn/intl/zh-CN/chrome/canary/
+http://viewver.coolpage.biz/chrome.php
 * **扩展**
   * `篡改猴测试版`  
 https://microsoftedge.microsoft.com/addons/detail/tampermonkey-beta/fcmfnpggmnlmfebfghbfnillijihnkoh
@@ -156,6 +155,20 @@ http://www.hostbuf.com/t/988.html
 https://www.xshell.com/zh/xshell/
 * `XFTP` FTP  
 https://www.xshell.com/zh/xftp/
+
+**后期**
+* `Adobe`相关
+  * `Adobe Premiere Pro` PR  
+https://mpyit.com/70404.html
+  * `Adobe After Effects` AE  
+https://mpyit.com/aftereffects2023m0nkrus.html
+  * `Adobe Media Encoder`  
+https://mpyit.com/mediaencoder2023m0nkrus.html
+  * `Adobe Photoshop`  
+https://www.qijishow.com/down/Photoshop%20Beta.html
+* `Vegas Pro`  
+https://mpyit.com/vegas21.html
+
 
 **虚拟机**
 * `VMware Workstation Pro` 精简  
@@ -230,8 +243,10 @@ http://laby.ysepan.com/
 https://forums.cncnet.org/topic/6325-how-to-host-a-cncnet-server
 
 **模拟器**
-* `MuMu模拟器`  
+* `MuMu模拟器` 推荐，安卓12  
 https://mumu.163.com/
+* `雷电模拟器` 不推荐，安卓9  
+https://www.ldmnq.com/
 * 手游
   * `明日方舟`  
 https://ak.hypergryph.com/
