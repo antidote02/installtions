@@ -65,6 +65,9 @@ https://www.bandisoft.com/bandizip/
 https://scoop.sh/
     * `Geek`  
 https://geekuninstaller.com/
+  * 输入法  
+    * `搜狗输入法`  
+https://shurufa.sogou.com/
 
 ### 社交
 **社交**
