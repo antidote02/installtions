@@ -245,7 +245,7 @@ https://mumu.163.com/help/20210511/35041_946700.html?fqbanner#a3
 
 
 **加速器**
-* `Watt Toolkit`  
+* `瓦特工具箱` Watt Toolkit/原Steam++  
 https://steampp.net/
 * `奇游电竞加速器`  
 https://www.qiyou.cn/
@@ -266,26 +266,28 @@ https://www.luyouxia.com/console
   * `ZeroTier`  
 https://my.zerotier.com/
 
-### 网盘
-* `Alist` 大部分可搭配`网盘直链下载助手`浏览器扩展食用  
+### 网盘 
+* `Alist` 以下部分可搭配`Aria2`/`网盘直链下载助手`/`Neat Download Manager`食用  
 https://alist.nn.ci/zh/
   * `RaiDrive` 挂载到本地  
 https://www.raidrive.com/
-* `阿里云盘` 主力盘  
+* `阿里云盘` 推荐，大文件需客户端，开放API，`网盘直链下载助手`可用  
 https://www.aliyundrive.com/drive/file/backup
   * `蜗牛云盘` 第三方客户端  
 https://www.aliyundrive.com/s/fqu79Z2dBbu
-* `123云盘` 推荐  
+* `huang1111网盘` 推荐，直链  
+https://pan.huang1111.cn/home?path=%2F
+* `123云盘` 推荐，直链  
 https://www.123pan.com/Downloadclient
 * `天翼云盘` 推荐  
 https://cloud.189.cn/web/static/download-client/
-* `夸克网盘` 推荐  
-https://pan.quark.cn/list#/list/all
 * `OneDrive` 推荐，但是仅5G  
 https://onedrive.live.com/?id=root&cid=8D6A13FDA731C349
-* `百度网盘` 不推荐，期待倒闭  
+* `夸克网盘` 不推荐，大文件需客户端，带宽限制，`网盘直链下载助手`可用  
+https://pan.quark.cn/list#/list/all
+* `百度网盘` 不推荐，带宽限制，期待倒闭  
 https://pan.baidu.com/download#win
-* `城通网盘` 不推荐，龟速  
+* `城通网盘` 不推荐，带宽限制，龟速  
 https://home.ctfile.com/#item-files  
 
 ### Toolkit
