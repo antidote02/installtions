@@ -76,7 +76,7 @@ https://pc.weixin.qq.com/
 https://mpyit.com/wechat.html
 * `QQ`  
 https://im.qq.com/pcqq/index.shtml
-* `Telegram`  
+* `Telegram Desktop`  
 https://desktop.telegram.org/
 
 **邮箱**
